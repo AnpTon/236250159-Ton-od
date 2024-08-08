@@ -31,3 +31,12 @@
    31  java --version
    32  cd 236250159-Ton-od
    33  history > exam_log.txt
+   34  git add exam_log.txt
+   35  git commit -m "Added exam_log.txt with command history"
+   36  git checkout -b finalexam
+   37  ls
+   38  git add exam_log.txt
+   39  git commit -m "Added exam_log.txt with command history"
+   40  git add exam_log.txt
+   41  git commit -m "Added exam_log.txt with command history"
+   42  history > exam_log.txt
