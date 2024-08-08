@@ -1,0 +1,33 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  touch notes.txt
+    4  ls
+    5  ls > notes.txt
+    6  cat notes.txt
+    7  nano notes.txt
+    8  echo "This is a practical exam." > notes.txt
+    9  head notes.txt
+   10  tail notes.txt
+   11  mkdir subdir
+   12  mv notes.txt subdir
+   13  mv subdir practice_subdir
+   14  cd practice_subdir
+   15  cp notes.txt ~/236250159-Ton-od/linux_practice
+   16  date
+   17  uptime
+   18  cd ~
+   19  df -h
+   20  ssh -v
+   21  sshd -v
+   22  php -v
+   23  mysql -version
+   24  sql --version
+   25  mysql-server
+   26  mysql-server --version
+   27  apachectl -v
+   28  python3 -v
+   29  java --ver
+   30  java -ver
+   31  java --version
+   32  cd 236250159-Ton-od
+   33  history > exam_log.txt
