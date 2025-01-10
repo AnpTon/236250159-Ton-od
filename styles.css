@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; 
+    color: #333; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 18% auto auto;
+    padding: 20px;
+    row-gap: 15px;
+    column-gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+}
+
+.Name {
+    grid-column: 1 / 4;
+    text-align: center; 
+    background-color: #4a4a4a; 
+    color: #f9f9f9; 
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0; 
+}
+
+.Name h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.Aboutme {
+    grid-column: 1;
+    grid-row-start: 2;
+    padding: 10px;
+    background-color: #f3f3f3; 
+    border-radius: 8px;
+    border: 1px solid #ddd; 
+}
+
+.Aboutme h2, .Aboutme h3 {
+    color: #4a4a4a; 
+}
+
+.info {
+    grid-column: 2 / 4;
+    grid-row-start: 2;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.schul, #skills {
+    border-bottom-style: solid;
+    border-color: #4a4a4a; 
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px; 
+}
+
+.Contacts {
+    grid-column: 2 / 4;
+    grid-row-start: 4;
+    padding: 5px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.Contacts h3 {
+    color: #4a4a4a; 
+}
+
+.Contacts ul li {
+    margin-bottom: 5px;
+}
+
