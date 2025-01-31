@@ -1,13 +1,18 @@
 .gridcontainer{
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% auto auto;
 }
 #Stuff{
     grid-column:1/4;
+    grid-row-start:2;
 }
 #HeroS{
-    grid-column:2/4;
-    grid-row-start:2;
+    grid-column:1/4;
+    grid-row-start:1;
+}
+img{
+    max-width:100%;
+    max-height:auto;
 }
 ul {
     list-style-type: none;
@@ -27,4 +32,5 @@ li {
 li:hover{
     color: blue;
 }
+
 
