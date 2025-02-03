@@ -1,0 +1,30 @@
+.gridcontainer{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+#Stuff{
+    grid-column:1/4;
+}
+#HeroS{
+    grid-column:2/4;
+    grid-row-start:2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+li:hover{
+    color: blue;
+}
+
