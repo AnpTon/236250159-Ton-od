@@ -1,36 +1,48 @@
-.gridcontainer{
-    display:grid;
-    grid-template-columns: 33% auto auto;
+.HeroS {
+    background: url('pexels-lastly-572688.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10%;
 }
-#Stuff{
-    grid-column:1/4;
-    grid-row-start:2;
+.HeroStext{
+    background-color: white;
 }
-#HeroS{
-    grid-column:1/4;
-    grid-row-start:1;
+.Stuff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
-img{
-    max-width:100%;
-    max-height:auto;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-}
-
-li {
-    float: left;
-    display: block;
-    color: white;
+#home {
     text-align: center;
-    padding: 16px;
+    padding: 15px;
+    font-size: 14px;
+    width: 100%;
 }
-li:hover{
-    color: blue;
+#home h2 {
+    font-size: 50px;
+}
+#home p {
+    font-size: 20px;
+}
+.aboutservices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+}
+#about, #services {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    width: 100%;
 }
 
 
