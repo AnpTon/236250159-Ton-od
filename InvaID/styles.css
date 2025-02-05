@@ -1,13 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #eef5e1; 
+    color: #355E3B; 
+}
 .HeroS {
     background: url('pexels-lastly-572688.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: left;
+    color: white;
     padding-left: 10%;
 }
-.HeroStext{
-    background-color: white;
+.HeroStext {
+    max-width: 500px;
+    background: rgba(59, 104, 66, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn {
+    background-color: #A7C7A1;
+    color: #355E3B;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #8BAF8B; 
 }
 .Stuff {
     display: flex;
@@ -16,6 +42,8 @@
     gap: 20px;
 }
 #home {
+    background: #A7C7A1; 
+    color: #355E3B;
     text-align: center;
     padding: 15px;
     font-size: 14px;
@@ -34,6 +62,7 @@
     width: 80%;
 }
 #about, #services {
+    background: #E5EFC1; 
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -43,6 +72,27 @@ footer {
     padding: 10px;
     font-size: 12px;
     width: 100%;
+    background-color: #A7C7A1;
+    color: #355E3B;
+}
+#DL {
+    color: #25502b;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .HeroS {
+        justify-content: center;
+        text-align: center;
+        padding-left: 0;
+    }
+    .aboutservices {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
 }
 
 
